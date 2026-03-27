@@ -1,0 +1,83 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE/system
+.DS_Store
+Thumbs.db
+
+# Runtime outputs
+outputs/
+*.log
+
+# Local notes/docs not for remote
+AI task.txt
+Program Structure.txt
+
+# Keep only selected project code/data footprint
+res/
+!res/.gitkeep
+
+# Must keep directory but do not upload contents
+src/character_recognizer/data/*
+!src/character_recognizer/data/.gitkeep
+src/ocr_recognizer/ocr_res/*
+!src/ocr_recognizer/ocr_res/.gitkeep
+src/instance/Kop_Date.db
+src/instance/Kop_Date.before_tongji_20260327_004017.db
+
+# Images and rich media (do not upload)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.bmp
+*.tif
+*.tiff
+*.svg
+
+# Local secrets
+.env
+.env.*
+*.secret
+*apikey*
+*token*
+
+# Model/training artifacts
+*.pth
+*.pt
+*.onnx
+*.ckpt
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.joblib
+*.gnt
+
+# Local databases and backups
+*.db
+*.sqlite
+*.sqlite3
+
+# Dataset / archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+*.xz
