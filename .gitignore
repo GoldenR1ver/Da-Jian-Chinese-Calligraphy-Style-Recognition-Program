@@ -72,6 +72,8 @@ src/instance/Kop_Date.before_tongji_20260327_004017.db
 *.db
 *.sqlite
 *.sqlite3
+# Default catalog shipped with the repo. It has schema and seed rows, not glyph images.
+!data/calligraphy.db
 
 # Dataset / archives
 *.zip

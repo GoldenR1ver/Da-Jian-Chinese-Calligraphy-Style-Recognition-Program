@@ -1,7 +1,0 @@
-# Optional manual author alias rules: one mapping per line.
-# Format: alias|canonical   (pipe-separated; spaces around | are trimmed)
-# Lines starting with # are ignored.
-#
-# Examples (edit and copy to author_alias_rules.txt):
-# 赵子昂|赵孟頫
-# 文征明|文徵明
